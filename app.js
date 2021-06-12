@@ -29,9 +29,9 @@ console.log(process.env.NODE_ENV);
 
 if(!isProduction) {
   app.use(errorHandler());
-  mongoose.connect('mongodb://localhost/us-dv');
+  mongoose.connect('mongodb://localhost/creme-caramel');
 }else{
-  mongoose.connect('mongodb+srv://developer:Paris2020!@cluster0-e6pdk.mongodb.net/', {dbName: 'us-dv'});
+  mongoose.connect('mongodb+srv://admin:1q2a3z3e@cluster0.kky0z.mongodb.net/', {dbName: 'creme-caramel'});
 }
 
 // app.get('*', function(request, response) {

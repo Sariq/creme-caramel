@@ -1,5 +1,5 @@
 {
-  "name": "us-dv",
+  "name": "creme-caramel",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -56,10 +56,10 @@
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "4.0.1",
     "pure-react-carousel": "^1.27.1",
-    "react": "^16.13.0",
+    "react": "^17.0.0",
     "react-app-polyfill": "^1.0.6",
     "react-dev-utils": "^10.2.0",
-    "react-dom": "^16.13.0",
+    "react-dom": "^17.0.0",
     "react-i18next": "^11.3.4",
     "react-phone-input-2": "^2.7.1",
     "react-phone-input-mui": "^2.9.4",
